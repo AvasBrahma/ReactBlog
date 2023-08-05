@@ -1,9 +1,10 @@
-function Navbar() {
+
+function Home() {
   return (
     <div className="">
-      NavBar
+      Home
     </div>
   );
   }
 
-export default Navbar;
+ export default Home;
