@@ -12,7 +12,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/post/:postId' element={<PostDetails />} />
+        <Route path='/post/:postid' element={<PostDetails />} />
         <Route path='/create-post' element={<CreatePost />} />
       </Routes>
     </div>
@@ -20,3 +20,4 @@ function App() {
 }
 
 export default App;
+
